@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jessie.naturewalks.MainActivity">
+
+    <!-- Set Text view -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to NatureWalks!"
+        android:textSize="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Button for welcome  -->
+    <Button
+        android:id="@+id/welcome_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Get Started"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

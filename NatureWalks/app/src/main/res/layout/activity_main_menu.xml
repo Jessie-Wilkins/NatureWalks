@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.jessie.naturewalks.MainMenu">
+
+    <!-- Set the image view -->
+    <ImageView
+        android:id="@+id/MM_pic"
+        android:layout_width="800dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/main_menu_pic"/>
+
+    <!-- Set the button for starting the button -->
+    <Button
+        android:id="@+id/startWalk_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Walk"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Set the button for the search -->
+    <Button
+        android:id="@+id/searchForTrail"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Search For Park"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Button for taking a picture -->
+    <Button
+        android:id="@+id/TakeAPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take A Picture"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <!-- Button for saving parks -->
+    <Button
+        android:id="@+id/saved_parks"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Saved Parks"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Button for saved notes -->
+    <Button
+        android:id="@+id/saved_notes"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Saved Notes"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Button for reset -->
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Reset Data"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jessie.naturewalks.TestJSONActivity">
+    <!-- Start fragment for the map -->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:context="com.example.jessie.naturewalks.TestJSONActivity" />
+
+    <!-- Inner Linear Layout -->
+    <LinearLayout
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:orientation = "horizontal">
+
+        <!-- Text View for the speed -->
+        <TextView
+            android:id="@+id/speed_measure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Button for taking picture -->
+        <Button
+            android:id="@+id/take_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Take Picture"
+            android:textSize="40dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

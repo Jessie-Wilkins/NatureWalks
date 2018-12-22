@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Set the image view -->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="400dp"
+        android:layout_height="400dp" />
+
+    <!-- Sets the text view -->
+    <TextView
+        android:id="@+id/text_link"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:textColor="#000"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/loc_link"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:textColor="#000"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>

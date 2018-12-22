@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jessie.naturewalks.MapsActivity">
+
+    <!-- Fragment for the map -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:context="com.example.jessie.naturewalks.MapsActivity"/>
+
+    <!-- Button for saving the park -->
+    <Button
+        android:id="@+id/save_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Park"/>
+
+    <!-- Button for going back to previous activity -->
+    <Button
+        android:id="@+id/back_maps_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"/>
+
+</LinearLayout>
